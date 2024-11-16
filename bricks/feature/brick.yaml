@@ -1,0 +1,28 @@
+name: feature
+description: Template for a Cubit + MVVM + Clean Architecture feature
+repository: https://github.com/Rodrigo-Molero-1901/custom_bricks
+version: 1.0.0+2
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+vars:
+  feature_name:
+    type: string
+    description: Name of the feature
+    prompt: Please define the name of your feature
+  #include_navigation:
+  #  type: boolean
+  #  description: Whether to include navigation in the feature
+  #  default: true
+  #  prompt: Would you like to add navigation?
+  #include_overlay:
+  #  type: boolean
+  #  description: Whether to include overlay in the feature
+  #  default: true
+  #  prompt: Would you like to add overlay?
+  #include_page_params:
+  #  type: boolean
+  #  description: Whether to include page parameters
+  #  default: true  
+  #  prompt: Would you like to add params?

@@ -1,0 +1,5 @@
+bricks:
+  feature:
+    path: bricks/cubit_mvvm_clean
+  di:
+    path: bricks/di
