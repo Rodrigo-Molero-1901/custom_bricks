@@ -1,7 +1,7 @@
 name: feature
 description: Template for a Cubit + MVVM + Clean Architecture feature
 repository: https://github.com/Rodrigo-Molero-1901/custom_bricks
-version: 1.0.0+5
+version: 1.0.0+6
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
