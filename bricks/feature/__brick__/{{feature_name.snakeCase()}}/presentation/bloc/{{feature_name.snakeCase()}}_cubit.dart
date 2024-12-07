@@ -14,8 +14,8 @@ class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase
   }
 
   void _emitMain({
-    {{feature_name.pascalCase()}}NavigationViewModel? navigation,
-    {{feature_name.pascalCase()}}OverlayViewModel? overlay,
+    {{feature_name.pascalCase()}}Navigation? navigation,
+    {{feature_name.pascalCase()}}Overlay? overlay,
   }) {
     emit(
       {{feature_name.pascalCase()}}Main(
