@@ -5,9 +5,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:injectable/injectable.dart';
 
-import '../../common/params/{{feature_name.snakeCase()}}_page_params.dart';
-import '../presentation/{{feature_name.snakeCase()}}_cubit.dart';
-import '../presentation/viewmodels/{{feature_name.snakeCase()}}_view_model.dart';
+import '../../../common/params/{{feature_name.snakeCase()}}_page_params.dart';
+import '../bloc/{{feature_name.snakeCase()}}_cubit.dart';
+import '../bloc/viewmodels/{{feature_name.snakeCase()}}_view_model.dart';
 
 part 'components/{{feature_name.snakeCase()}}_view.dart';
 part 'components/navigation.dart';
