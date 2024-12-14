@@ -19,7 +19,10 @@ class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase
   }) {
     emit(
       {{feature_name.pascalCase()}}Main(
-        viewModel: {{feature_name.pascalCase()}}ViewModel.fromSuccessState(),
+        viewModel: {{feature_name.pascalCase()}}ViewModel.fromSuccessState(
+          navigation: navigation,
+          overlay: overlay,
+        ),
       ),
     );
   }
