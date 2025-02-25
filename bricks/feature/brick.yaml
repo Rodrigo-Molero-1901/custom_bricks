@@ -4,7 +4,7 @@ repository: https://github.com/Rodrigo-Molero-1901/custom_bricks
 version: 1.0.0+9
 
 environment:
-  mason: ">=0.1.0"
+  mason: any
 
 vars:
   feature_name:
