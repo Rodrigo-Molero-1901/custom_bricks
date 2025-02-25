@@ -8,7 +8,7 @@ import 'package:injectable/injectable.dart';
 import '../bloc/{{feature_name.snakeCase()}}_cubit.dart';
 import '../bloc/viewmodels/{{feature_name.snakeCase()}}_view_model.dart';
 
-part 'components/{{feature_name.snakeCase()}}_view.dart';
+part 'components/view.dart';
 part 'components/navigation.dart';
 part 'components/overlay.dart';
 part '{{feature_name.snakeCase()}}_page_params.dart';
